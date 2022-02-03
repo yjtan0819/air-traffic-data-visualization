@@ -2,7 +2,7 @@
 
 ### How to use this program
 
-- Import csv.gz from "https://zenodo.org/record/4601480" 
+- Import a desired csv.gz file from "https://zenodo.org/record/4601480" 
 
 [![zenodo-org.png](https://i.postimg.cc/YSxjvFtD/zenodo-org.png)](https://postimg.cc/yJk75kg0)
 
