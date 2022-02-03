@@ -1,5 +1,8 @@
 # MIAE-PROJECT (AIR TRAFFIC DATA VISUALIZATION)
 
+### Example of this program on Google Colab
+- https://colab.research.google.com/drive/19-_PZPN7P7BxhLQuQWLv3ofORl3PAr3t?usp=sharing
+
 ### How to use this program
 
 - Import a desired csv.gz file from "https://zenodo.org/record/4601480" 

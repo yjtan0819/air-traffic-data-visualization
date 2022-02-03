@@ -23,7 +23,6 @@ def analyze(*, dataset: pd.DataFrame, airports_subset: list):
 def visualize(data, airports_subset: list):
     chart = alt.Chart(
         data.reset_index()
-
             # prepare data for altair
             .melt("day", var_name="airport", value_name="count")
     )
