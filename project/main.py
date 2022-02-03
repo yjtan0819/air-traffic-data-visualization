@@ -17,25 +17,21 @@ AIRPORTS_BY_REGION = [
 ]
 
 
-# Let's start in main.py showing some wrapper patterns and depicting method attributes.
-# Explore with pushes and pulls and view on GitHub!
-# git remote add new_origin https://github.com/mowglu/MIAE-Python and then use git pull new_origin <<commit>>
 def main_wrapper():
     # intrinsic methods
     print(
-        f"This is the start of our python project, we will be starting off with this wrapper main function called {main_wrapper.__name__}")
+        f"Start of our python project: main function called {main_wrapper.__name__}")
 
     # Stuff here - wrapper!
-    # project structuring for modularity, maintainability, and separation of concerns.
-    # 2. git pull
+    # Project structuring for modularity, maintainability, and separation of concerns.
 
-    # set up a .gitignore and a .pull_template
+    # Set up a .gitignore and a .pull_template
     # 3. API example. Creating fetcher. from __init__. Create fetcher for states_accessor and tracks_accessor.
     # Create config with pydantic baseSettings. Use env variables and use PyCharm.env files!
 
     # API fetcher examples
     fetcher.states_accessor()
-    # fetcher.tracks_accessor()
+    # fetcher.tracks_accessor() -> Not supporting it anymore
 
     # 4. Finish API fetcher. Also add some data folders in gitignore. Like data_to_ignore (with sample example) Also
     # utils example
@@ -66,10 +62,9 @@ if __name__ == "__main__":
     main_wrapper()
 
     # 10. Future ideas.
-    # SPIN off from this project, you can get creative. Some ideas:
     # 1. Implement usage of timezones within your unix time converters
-    # 2. Use matplotlib or seaborn instead of altair. Can you get equally visually pleasing graphs?
-    # 3. Use only the "formed" data. Clean it up the best you can and visualize the data. Can you use other columns to
-    # your advantage? For example, maybe you could determine that an departing flight is only considered so if the
+    # 2. Use matplotlib or seaborn instead of altair.
+    # 3. Use only the "formed" data. Clean it up the best you can and visualize the data.
+    # For example, maybe determine that a departing flight is only considered so if the
     # "departure_airport_candidates_count" is lower than a certain threshold (think env variables).
-    # 4. Use another API you find on the web and go ham. Explore!
+    # 4. Use another API you find on the web
