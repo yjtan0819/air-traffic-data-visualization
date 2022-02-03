@@ -4,10 +4,9 @@
 
 - Import csv.gz from "https://zenodo.org/record/4601480" 
 
-
 [![zenodo-org.png](https://i.postimg.cc/YSxjvFtD/zenodo-org.png)](https://postimg.cc/yJk75kg0)
 
-- Create a new directory called data_set
+- Create a new directory called "data_set" inside the project directory
 
 [![data-set.png](https://i.postimg.cc/ncZFDzw6/data-set.png)](https://postimg.cc/0rW1g8vf)
 
