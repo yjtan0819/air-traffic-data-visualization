@@ -41,4 +41,4 @@
 - No need to update code -> Every csv.gz will be recognized automatically
 - Make sure to put the csv.gz inside a "data_set" directory
 - out.zip is used to quickly see data (in .csv) DON'T OPEN IF PC IS SLOW
-- 
+
