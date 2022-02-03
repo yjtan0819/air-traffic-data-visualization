@@ -38,7 +38,8 @@
 [![run-main.png](https://i.postimg.cc/qRsfJc0g/run-main.png)](https://postimg.cc/mzgpVHPG)
 
 # IMPORTANT INFORMATION
-- No need to update code -> Every csv.gz will be recognized automatically
+- No need to update code depending on file
+- Every csv.gz will be recognized automatically if it's in the correct directory
 - Make sure to put the csv.gz inside a "data_set" directory
 - out.zip is used to quickly see data (in .csv) DON'T OPEN IF PC IS SLOW
 
