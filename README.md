@@ -8,8 +8,16 @@
 [![zenodo-org.png](https://i.postimg.cc/YSxjvFtD/zenodo-org.png)](https://postimg.cc/yJk75kg0)
 
 - Create a new directory called data_set
-- Put the downloaded csv.gz inside the directory
+
+[![data-set.png](https://i.postimg.cc/ncZFDzw6/data-set.png)](https://postimg.cc/0rW1g8vf)
+
+
+- Put the downloaded csv.gz file(s) inside the "data_set" directory
+
+[![test-files.png](https://i.postimg.cc/9QkHJFJX/test-files.png)](https://postimg.cc/68CPQKkF)
 - Run main.py
+
+[![run-main.png](https://i.postimg.cc/qRsfJc0g/run-main.png)](https://postimg.cc/mzgpVHPG)
 
 # IMPORTANT INFORMATION
 - No need to update code -> Every csv.gz will be recognized automatically
