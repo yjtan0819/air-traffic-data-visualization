@@ -10,7 +10,7 @@ def fixed_dataset() -> pd.DataFrame:
         pd.read_csv(file, parse_dates=["firstseen", "lastseen", "day"])
         # for file in Path("path/to/folder").glob("flightlist_*.csv.gz")
         for file in
-        Path("C:/Users/mowgl/Documents/Python/MIAE_Python_Tutorial/MIAE-Python/data_set").glob("flightlist_*.csv.gz")
+        Path("C:/Users/carit/OneDrive - McGill University/Desktop/School/Personal Projects/Project 1/MIAE-PROJECT/data_set").glob("flightlist_*.csv.gz")
     )
     return flight_list
 
@@ -59,7 +59,7 @@ def forming_dataset(*, start_time: str, end_time: str) -> pd.DataFrame:
     compression_opts = dict(method='zip',
                             archive_name='out.csv')
 
-    total_df.to_csv("C:/Users/mowgl/Documents/Python/MIAE_Python_Tutorial/MIAE-Python/data_to_ignore/out.zip",
+    total_df.to_csv("C:/Users/carit/OneDrive - McGill University/Desktop/School/Personal Projects/Project 1/MIAE-PROJECT/data_set/out.zip",
                     compression=compression_opts)
     # Other main thing you can do -> create an explicit date column based on the firstSeen (or lastSeen, though firstSeen is slightly more consistent)
 
