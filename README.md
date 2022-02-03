@@ -1,4 +1,4 @@
-# MIAE-PROJECT
+# MIAE-PROJECT (DATA VISUALIZATION)
 
 ### How to use this program
 
