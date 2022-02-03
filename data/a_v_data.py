@@ -7,7 +7,7 @@ def analyze(*, dataset: pd.DataFrame, airports_subset: list):
     data = pd.concat(
         (
             dataset.query(f'origin == "{airport}"')
-                # count the number of departing aircraft per day
+                # Count the number of departing aircraft per day
                 .groupby("day")
                 .agg(dict(callsign="count"))
                 # label the current chunk with the name of the airport
@@ -23,6 +23,7 @@ def analyze(*, dataset: pd.DataFrame, airports_subset: list):
 def visualize(data, airports_subset: list):
     chart = alt.Chart(
         data.reset_index()
+
             # prepare data for altair
             .melt("day", var_name="airport", value_name="count")
     )
