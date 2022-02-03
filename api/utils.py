@@ -5,7 +5,7 @@ def solid_example_1(*, example_param_1: str, example_param_2: int):
     :param example_param_2:
     :return:
     """
-    # TODO: Do something... But the technology to do this something comes online in 2030.
+    # TODO: UPDATE TO DO LIST
 
 
 def solid_example_2(example_param_1: float) -> int:
