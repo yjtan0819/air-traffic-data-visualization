@@ -33,6 +33,7 @@ def tracks_accessor():
 def flights_accessor(*, start_time_unix_int: int, end_time_unix_int: int):
     url = f"{ROOT_URL}/flights/all?begin={start_time_unix_int}&end={end_time_unix_int}"
     r = requests.get(url)
+
     if not r.ok:
         raise RuntimeError(r.json())
     return r.json()
