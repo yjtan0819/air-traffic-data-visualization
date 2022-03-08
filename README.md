@@ -1,5 +1,8 @@
 # MIAE-PROJECT (AIR TRAFFIC DATA VISUALIZATION)
 
+### Goal of this project
+- Visualize the number of departing flights in different areas of the world
+
 ### Example of this program on Google Colab
 - https://colab.research.google.com/drive/19-_PZPN7P7BxhLQuQWLv3ofORl3PAr3t?usp=sharing
 
